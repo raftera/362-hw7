@@ -14,6 +14,8 @@ class TestCase(unittest.TestCase):
     def test_leapyear4(self):
         result = leapyear.leapyear(3)
         self.assertEqual(result, False)
+    def test_leapyear5(self):
+        result = leapyear.leapyear("NotInt")
 
 if __name__ == '__main__':
     unittest.main()

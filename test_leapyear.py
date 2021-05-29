@@ -11,7 +11,9 @@ class TestCase(unittest.TestCase):
     def test_leapyear3(self):
         result = leapyear.leapyear(400)
         self.assertEqual(result, True)
-
+    def test_leapyear4(self):
+        result = leapyear.leapyear(3)
+        self.assertEqual(result, False)
 
 if __name__ == '__main__':
     unittest.main()

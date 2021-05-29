@@ -14,7 +14,7 @@ class TestCase(unittest.TestCase):
         result = fizzbuzz.fizzbuzz(3)
         self.assertEqual(result, "Fizz")
     def test_fizzbuzz4(self):
-        reesult = fizzbuzz.fizzbuzz(15)
+        result = fizzbuzz.fizzbuzz(15)
         self.assertEqual(result, "FizzBuzz")
 
 

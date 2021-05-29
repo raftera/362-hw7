@@ -1,5 +1,5 @@
 import unittest
-import test_leapyear
+import leapyear
 
 class TestCase(unittest.TestCase):
     def test_leapyear1(self):

@@ -13,6 +13,9 @@ class TestCase(unittest.TestCase):
     def test_fizzbuzz3(self):
         result = fizzbuzz.fizzbuzz(3)
         self.assertEqual(result, "Fizz")
+    def test_fizzbuzz4(self):
+        reesult = fizzbuzz.fizzbuzz(15)
+        self.assertEqual(result, "FizzBuzz")
 
 
 if __name__ == '__main__':
